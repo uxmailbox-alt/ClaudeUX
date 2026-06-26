@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Phase 0 — Hebrew TTS quality spike (A/B/C)</title>
+    <style>
+      :root { font-family: -apple-system, system-ui, "Segoe UI", Arial, sans-serif; }
+      body { max-width: 760px; margin: 24px auto; padding: 0 16px; color: #111b21; direction: ltr; }
+      h1 { font-size: 22px; }
+      .lead { color: #667781; line-height: 1.5; }
+      textarea { width: 100%; min-height: 90px; font-size: 18px; direction: rtl; padding: 10px; box-sizing: border-box; border: 1px solid #d1d7db; border-radius: 8px; }
+      .samples button { margin: 4px 4px 0 0; font-size: 13px; direction: rtl; }
+      .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 16px; }
+      .card { border: 1px solid #e1e1e1; border-radius: 10px; padding: 12px; }
+      .card h3 { margin: 0 0 6px; font-size: 14px; }
+      .card .tag { font-size: 11px; color: #fff; padding: 1px 6px; border-radius: 6px; }
+      .free { background: #888; } .raw { background: #2b7; } .pipe { background: #00a884; }
+      .card p { font-size: 12px; color: #667781; min-height: 48px; }
+      .card button { width: 100%; padding: 8px; border: none; border-radius: 8px; background: #00a884; color: #fff; font-weight: 600; cursor: pointer; }
+      .card button:disabled { background: #ccc; cursor: not-allowed; }
+      details { margin-top: 18px; background: #f7f8fa; border-radius: 10px; padding: 12px; }
+      label { display: block; font-weight: 600; margin: 8px 0 4px; font-size: 13px; }
+      input { width: 100%; padding: 7px; border: 1px solid #d1d7db; border-radius: 7px; box-sizing: border-box; }
+      .status { font-size: 12px; margin-top: 8px; white-space: pre-wrap; }
+      .diac { direction: rtl; font-size: 20px; margin-top: 8px; min-height: 28px; }
+      code { background: #eef; padding: 1px 4px; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>Phase 0 — Hebrew TTS quality spike</h1>
+    <p class="lead">
+      Prove the thesis before building the extension: <b>niqqud → neural</b> (C)
+      should clearly beat both the browser's built-in voice (A) and raw neural
+      with no diacritics (B), especially on homographs. Column&nbsp;A works with
+      zero setup. B/C need an Azure Speech key (see <i>Settings</i>). Niqqud comes
+      from Dicta Nakdan (free).
+    </p>
+
+    <textarea id="text" dir="rtl">שלום, מה קורה? אני בדרך אליך, אהיה שם בעוד עשר דקות.</textarea>
+
+    <div class="samples">
+      <b style="font-size:12px">Homograph test set:</b><br />
+      <!-- These are deliberately ambiguous without niqqud. -->
+      <button data-s="הספר שֶׁבא לבית הספר סיפר סיפור">ספר / סיפר / ספר</button>
+      <button data-s="הילד אכל ארוחת בוקר ואז הלך לבית הספר עם החברים שלו">multi-word</button>
+      <button data-s="דברים שאי אפשר לדבר עליהם בקול רם">דברים / לדבר</button>
+      <button data-s="הזמין אותי ל-3 פגישות ב-14:00 ביום ראשון">Heb+digits</button>
+      <button data-s="OK אני שולח לך את ה-link עכשיו">mixed Heb/En</button>
+    </div>
+
+    <div class="cols">
+      <div class="card">
+        <h3><span class="tag free">A</span> Web Speech (free)</h3>
+        <p>Browser <code>he-IL</code> voice. No diacritics, no setup. The baseline.</p>
+        <button id="playA">▶ Play A</button>
+      </div>
+      <div class="card">
+        <h3><span class="tag raw">B</span> Neural, raw</h3>
+        <p>Azure neural voice on the text as-typed (engine guesses vowels).</p>
+        <button id="playB" disabled>▶ Play B</button>
+      </div>
+      <div class="card">
+        <h3><span class="tag pipe">C</span> Nakdan → Neural</h3>
+        <p>Add niqqud (Dicta) <i>then</i> Azure neural. The hypothesis.</p>
+        <button id="playC" disabled>▶ Play C</button>
+      </div>
+    </div>
+
+    <div class="diac" id="diac" dir="rtl"></div>
+    <div class="status" id="status"></div>
+
+    <details>
+      <summary><b>Settings & notes</b></summary>
+      <label for="azKey">Azure Speech key</label>
+      <input id="azKey" type="password" placeholder="paste key (stored only in this tab)" />
+      <label for="azRegion">Azure region</label>
+      <input id="azRegion" type="text" value="westeurope" />
+      <label for="azVoice">Azure voice</label>
+      <input id="azVoice" type="text" value="he-IL-AvriNeural" />
+      <p class="lead" style="margin-top:12px">
+        <b>CORS heads-up:</b> Dicta Nakdan and Azure may block direct browser
+        calls. If B/C fail with a network/CORS error, that's expected — in the
+        real product these calls go through the backend proxy (Phase 2). This
+        spike is just to <i>hear</i> the difference; run it with a CORS-relaxed
+        browser profile if needed, or wire the proxy first.
+      </p>
+    </details>
+
+    <script src="tts-compare.js"></script>
+  </body>
+</html>

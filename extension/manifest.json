@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Web Hebrew TTS",
+  "version": "0.1.0",
+  "description": "Reads incoming WhatsApp Web messages aloud in Hebrew. Quality-first niqqud → neural pipeline, with a free built-in voice as the default.",
+  "permissions": ["storage", "offscreen"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": [
+        "content/normalize.js",
+        "content/wa-adapter.js",
+        "content/tts-engine.js",
+        "content/observer.js",
+        "content/ui.js",
+        "content/controller.js"
+      ],
+      "css": ["content/styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options/options.html",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WhatsApp Hebrew TTS — Settings</title>
+    <style>
+      body {
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+        max-width: 520px;
+        margin: 32px auto;
+        padding: 0 20px;
+        color: #111b21;
+      }
+      h1 { font-size: 20px; }
+      .row { margin: 18px 0; }
+      label { display: block; font-weight: 600; margin-bottom: 6px; }
+      .hint { font-weight: 400; color: #667781; font-size: 12.5px; margin-top: 4px; }
+      select, input[type="number"], input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #d1d7db;
+        border-radius: 8px;
+        font-size: 14px;
+        box-sizing: border-box;
+      }
+      input[type="range"] { width: 100%; }
+      .premium { opacity: 0.55; }
+      .premium.enabled { opacity: 1; }
+      button {
+        background: #00a884;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .saved { color: #00a884; font-weight: 600; margin-left: 10px; }
+    </style>
+  </head>
+  <body>
+    <h1>WhatsApp Web Hebrew TTS</h1>
+
+    <div class="row">
+      <label for="engine">Voice engine</label>
+      <select id="engine">
+        <option value="webspeech">Free — built-in browser voice (local, private)</option>
+        <option value="neural">Premium — niqqud + neural voice (Phase 2)</option>
+      </select>
+      <div class="hint">
+        The free engine needs a Hebrew voice installed in your OS. The premium
+        engine adds niqqud (Dicta Nakdan) then a neural voice for natural Hebrew.
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="rate">Speech rate: <span id="rateVal">1.0</span>×</label>
+      <input id="rate" type="range" min="0.5" max="2" step="0.1" value="1" />
+    </div>
+
+    <div class="row">
+      <label>
+        <input id="announce" type="checkbox" />
+        Announce sender name in group chats
+      </label>
+    </div>
+
+    <fieldset class="row premium" id="premiumBox">
+      <legend>Premium pipeline (Phase 2)</legend>
+      <div class="row">
+        <label for="backendUrl">Backend proxy URL</label>
+        <input id="backendUrl" type="text" placeholder="https://your-worker.example/speak" />
+        <div class="hint">The proxy holds your API keys, runs Nakdan → neural TTS, and caches audio.</div>
+      </div>
+      <div class="row">
+        <label for="neuralVoice">Neural voice</label>
+        <input id="neuralVoice" type="text" placeholder="he-IL-AvriNeural" />
+      </div>
+    </fieldset>
+
+    <button id="save">Save</button>
+    <span id="saved" class="saved" hidden>Saved ✓</span>
+
+    <script src="options.js"></script>
+  </body>
+</html>
