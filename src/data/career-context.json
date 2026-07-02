@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "name": "Yair Golan",
+    "title": "Head of Design",
+    "company": "Optibus",
+    "location": "Israel",
+    "languages": ["Hebrew", "English"],
+    "headline": "I build design organizations that make complex product teams work better together.",
+    "tagline": "Conflict resolution is my actual degree, and my actual job. I lead design teams. I don't make pretty screens. I align Product, Design, and Engineering into a single building machine.",
+    "linkedin": "https://www.linkedin.com/in/yair-golan-ux-lead/",
+    "email": "uxmailbox@gmail.com",
+    "personal_note": "I also play drums in a rock band. Pearl Jam, Foo Fighters, 90s rock. 'Rockstar' is authentic vocabulary for me, not corporate cringe."
+  },
+
+  "professional_summary": "I lead a 10-person Design & Content organization at Optibus (B2B SaaS, public transportation). Over 15 years in product design: Amdocs (enterprise, 20K employees), Cellebrite (law enforcement, grew to Director of UX, saw company through IPO prep), and now Optibus (Head of Design, built team from 1 to 10). My background is unusual: Master's in Conflict Resolution. It turns out that's exactly what design leadership is. Getting engineers, PMs, and designers aligned on what to build next. The best outcome of a design sprint isn't the prototype. It's getting the right people in the room, aligned on what matters.",
+
+  "experience": [
+    {
+      "company": "Optibus",
+      "role": "Head of Design",
+      "period": "Jun 2021 - Present",
+      "industry": "B2B SaaS - Public Transportation Planning & Operations",
+      "company_context": "Software for cities and transit agencies to plan, schedule, and operate public transportation. Enterprise customers include Deutsche Bahn, ~75% of UK public transit (First Bus, Arriva, Stagecoach), ~50% of Brazil's public transit. Company grew from ~120 to ~400 employees during my tenure. Raised $100M Series D at $1.3B valuation. Strategic investment from Volvo Group.",
+      "bullets": [
+        {
+          "claim": "Built and scaled Design & Content organization from 1 to 10 people over 5 years",
+          "ai_context": {
+            "situation": "When I joined, design was essentially one person. The company was growing fast, expanding from ~120 to ~400 employees, products multiplying, no design infrastructure.",
+            "action": "Built the entire design function from scratch. Hiring, structured 30/60/90 onboarding, mentoring with IDPs, performance management. Created design review process, documentation standards, cross-team rituals.",
+            "result": "10-person org including designers and content designers. Design lead promoted internally now manages 2 designers. Team retention: fired 4 people (performance), 1 left voluntarily. Everyone else stayed 5+ years.",
+            "lesson": "Scaling isn't about headcount. It's about systems that let people operate independently while staying aligned."
+          }
+        },
+        {
+          "claim": "Repositioned design from service function to strategic partner across all product teams",
+          "ai_context": {
+            "situation": "When I joined: 2 designers reporting to VP Product. Design was a suggestion — not every shipped feature went through a designer. Capacity constraints + low perceived importance.",
+            "action": "Stopped working on random off-roadmap ideas. Prioritized so designers only start tasks actually on roadmap. Showed impact repeatedly. Translated design insights to business language.",
+            "result": "Design now involved in every feature going into production — even technical features from data/infra teams, as long as there's an end-user interface. 100% of shipped features touch the design team.",
+            "lesson": "Getting a seat at the table isn't about asking. It's about making your contribution so clearly valuable that not including you becomes a problem."
+          }
+        },
+        {
+          "claim": "Killed a major project after 3 months of discovery, saving significant R&D investment",
+          "ai_context": {
+            "situation": "Large project, 3 months of discovery (myself + PM + designer). Thought it would benefit many customers.",
+            "action": "Deep discovery, multiple solution designs, many customer calls. Realized the problem didn't hurt enough — not worth the massive R&D investment.",
+            "result": "Decision: don't ship. Saved significant money on a product that wouldn't have been adopted.",
+            "lesson": "Understanding WHY before jumping to solutions. If you skip the problem space, you pay a much higher price later."
+          }
+        },
+        {
+          "claim": "Replaced a content designer role with AI and a Figma plugin — quality went up",
+          "ai_context": {
+            "situation": "Lost a content designer. Team needed content support but couldn't justify another headcount in that function.",
+            "action": "Built an AI-powered content workflow + Figma plugin to assist designers where they work. Integrated directly into the design process.",
+            "result": "Content quality actually improved. Designers get instant content support. Nobody noticed quality dropped — because it didn't. It went up.",
+            "lesson": "AI isn't about cost-cutting. It's about redesigning how design works. The role didn't go away; it got distributed and augmented."
+          }
+        },
+        {
+          "claim": "Revolutionized prototyping: designers now work directly in Cursor on the actual codebase",
+          "ai_context": {
+            "situation": "Traditional prototyping was time-consuming. High-fidelity prototypes in design tools took days and were still far from reality.",
+            "action": "Pushed team to prototype in Cursor on the actual codebase. Starting point is much closer to reality.",
+            "result": "Output isn't a broken prototype — it's an actual working feature that can be handed directly to users for testing. Massive time savings.",
+            "lesson": "Designers working in terminals isn't a gimmick. It's the future. 2023 design leaders would be shocked."
+          }
+        },
+        {
+          "claim": "Elevated Optibus UX maturity from Stage 2 (Limited) to Stage 4 (Structured) per NNG UX Maturity Model",
+          "ai_context": {
+            "situation": "When I joined in 2021, Optibus was at NNG Stage 2 (Limited): no dedicated UX roles, no formal process, no budget, no recognition of UX as a discipline. UX happened erratically — only when someone cared enough to push it.",
+            "action": "Built the entire UX function from the ground up. Established a full design team, centralized design process, human-centered design rituals, and user research throughout the product lifecycle. Repositioned design from erratic effort to strategic partner embedded in every product team.",
+            "result": "Validated by NNG's UX Maturity assessment: Optibus now operates at Stage 4 (Structured) — a recognized UX org, leadership support, iterative HCD process, research throughout the product lifecycle. Stage 4 is where most healthy product companies land.",
+            "lesson": "Maturity doesn't come from headcount. It comes from making UX undeniably useful — repeatedly — until the organization reorganizes itself around it."
+          }
+        },
+        {
+          "claim": "Drove PLG feature initiative: design-initiated revenue in 60 days",
+          "ai_context": {
+            "situation": "Wanted to prove design could directly drive business value, not just 'support' product.",
+            "action": "Pushed for Product-Led Growth features. Created prototypes that became real features customers could turn on or try for free.",
+            "result": "60-day results: 26 customers tested, 78 marketing page visits, 3 demo bookings, 1 purchase. Design-initiated, design-prototyped, design-driven revenue.",
+            "lesson": "The most creative way to prove design's value is to generate revenue yourself."
+          }
+        }
+      ]
+    },
+    {
+      "company": "Cellebrite",
+      "role": "Sr. Product Designer & Researcher → Director of UX",
+      "period": "May 2016 - May 2021",
+      "industry": "Law Enforcement / Digital Intelligence",
+      "company_context": "Digital intelligence solutions for law enforcement. Detectives extracting and analyzing data from phones/computers. Company scaled from ~150 to ~600 employees during tenure, IPO preparation.",
+      "bullets": [
+        {
+          "claim": "Grew from Senior Designer to Director of UX, led UX team through major product transformations",
+          "ai_context": {
+            "situation": "Joined mid-growth phase (~300 people). Complex products for non-technical users (detectives) dealing with enormous data sets.",
+            "action": "Led two major product transformations. Built and led UX team. Established UX practices across product organization.",
+            "result": "Left as Director of UX with company at ~800 employees preparing for IPO.",
+            "lesson": "Startup growth from 150 to 600 teaches you how to build systems that scale with the organization."
+          }
+        },
+        {
+          "claim": "Led design of experimental timeline-based data exploration tool (project canceled — validated process)",
+          "ai_context": {
+            "situation": "Detectives needed to sift through enormous amounts of extracted data. Nothing like it existed in the industry.",
+            "action": "Designed a timeline-based exploration tool — zoom in/out like a map, increasing detail levels. Built prototypes, ran usability testing, developed lean MVP with real users.",
+            "result": "Project canceled due to (1) high R&D cost, (2) onboarding challenge — non-technical detectives would need significant training for a novel tool.",
+            "lesson": "Innovation can be right on concept and wrong on timing/cost. Killing a project you're emotionally invested in is part of the job."
+          }
+        }
+      ]
+    },
+    {
+      "company": "Amdocs",
+      "role": "Lead Interaction & UI Designer → Usability Expert",
+      "period": "Dec 2011 - Apr 2016",
+      "industry": "Enterprise Software / Telecom",
+      "company_context": "Large-scale enterprise products for global telecom customers. ~20,000 employees, ~80 designers. Agency-style projects (3-6 months).",
+      "bullets": [
+        {
+          "claim": "Transitioned from graphic design to UI design to UX expert in enterprise environment",
+          "ai_context": {
+            "situation": "Large variety of projects and customers, but never got to follow through to see products meet users. Usability testing only in discovery mode.",
+            "action": "Shifted between roles: graphic designer, UI designer, usability expert. Built breadth across enterprise product types.",
+            "result": "Learned large-company dynamics: CPO was 'secondary to God' — 10 levels between me and CEO.",
+            "lesson": "Big company makes you think smaller. In a startup, you look for opportunities and take action. This taught me I wanted startup environments."
+          }
+        }
+      ]
+    }
+  ],
+
+  "education": {
+    "bachelors": "B.Des. Interaction & Graphic Design, Shenkar School of Design",
+    "masters": "Master's degree in Conflict Resolution",
+    "certifications": ["NN/g UX Certification"],
+    "relevance": "Conflict resolution is surprisingly useful for design leadership. Structured thinking, frameworks for alignment, understanding how people with different priorities can find common ground. It's basically stakeholder management with academic rigor."
+  },
+
+  "skills_assessment": {
+    "strong": [
+      {
+        "skill": "Complex B2B UX Design",
+        "evidence": "15+ years designing for operational domains. Law enforcement data analysis, public transportation planning. Data-dense, constraint-heavy, expert users working 8+ hours/day."
+      },
+      {
+        "skill": "Design Team Leadership & Scaling",
+        "evidence": "Built Optibus team 1 to 10. Promoted internal designer to design lead. Retention: team members stayed 5+ years. Fired 4 underperformers (managed through PIPs)."
+      },
+      {
+        "skill": "Large-Scale Data Navigation UX",
+        "evidence": "Thread across career: detectives sifting through phone data (Cellebrite), transit planners navigating route networks (Optibus), optimization engines with rule-based systems. Pattern transfers across industries."
+      },
+      {
+        "skill": "Stakeholder Alignment & Product Strategy",
+        "evidence": "Resolved designer-PM conflicts with data: showed dev team at capacity, ideas not on roadmap. Established allocated capacity based on roadmap."
+      },
+      {
+        "skill": "AI-First Design Operations",
+        "evidence": "Replaced content designer with AI + Figma plugin. Team prototypes in Cursor on codebase. Not 'AI adoption' — redesigned how design works."
+      },
+      {
+        "skill": "Budget & Headcount Management",
+        "evidence": "Full budget awareness and influence. Postponed hire to accumulate budget for senior candidate. Changed hiring locations for cost optimization."
+      }
+    ],
+    "moderate": [
+      {
+        "skill": "Design Metrics & Impact Measurement",
+        "evidence": "Actively building frameworks to connect design to business metrics. Real challenge in complex B2B where value is indirect. Frontier challenge, not a confession."
+      },
+      {
+        "skill": "Codified Design Principles",
+        "evidence": "Haven't set strong design principles all designers operate against. Conscious prioritization: focused on embedding design into process, AI capabilities, business impact. On the roadmap."
+      },
+      {
+        "skill": "Service Design at Enterprise Scale",
+        "evidence": "Apply service thinking to product decisions. Haven't done formal service design projects with journey mapping at enterprise scale."
+      }
+    ],
+    "gaps": [
+      {
+        "skill": "Consumer Product Design",
+        "evidence": "Entire career in B2B and operational domains. Understand consumer UX concepts but haven't shipped consumer products at scale."
+      },
+      {
+        "skill": "Mobile-First Design",
+        "evidence": "Driver app is React Native, but core expertise is desktop-first complex workflows. Not mobile-native background."
+      },
+      {
+        "skill": "Growth / Marketing Design",
+        "evidence": "Product and systems thinker, not a growth hacker. A/B testing, conversion optimization, viral loops are not my domain."
+      }
+    ]
+  },
+
+  "leadership_philosophy": {
+    "core_beliefs": [
+      "Design leadership is an alignment job, not an artifact job. The best design sprint outcome is getting people aligned, not a prototype.",
+      "I don't believe in 'design culture.' I believe in product culture where Product, Design, and Engineering are all builders — and Design becomes the power multiplier.",
+      "Understanding WHY before jumping to solutions. Designers tend to hear a problem and switch to solution mode immediately. Skip the problem space and you pay a higher price later.",
+      "The future of UX is psychology, not pixels. AI handles artifacts. What remains is understanding humans.",
+      "Roles are blurring. When everyone is a maker, design's value shifts from output to amplifying the whole team's impact."
+    ],
+    "management_approach": "Player-coach who stays close to work while building systems for independence. Structured development through IDPs, not ad-hoc feedback. Fear being boring more than being wrong. Draft in public, hold opinions lightly.",
+    "first_90_days_approach": [
+      "Understand hierarchy — who reports to whom",
+      "Find each person's superpower — what can I utilize them for",
+      "Map skills vs. gaps — are there holes to address",
+      "Evaluate role fit — does it make sense to keep people in current roles",
+      "Onboard self — learn the business and product (use the design team)",
+      "Interview everyone — what works, what could improve. Fresh eyes = opportunity to question if current ways are optimal",
+      "Interview peers and sideways — who partners with design, what could improve",
+      "Look upwards — understand roadmap, how it's built, how much design is involved. If not enough, push for change"
+    ]
+  },
+
+  "hard_lessons": {
+    "bad_hire": {
+      "story": "Hired a content designer. Good in interviews, said she had solid strategic background. But she came from a large content design team where she didn't need to be proactive. On my team (only 2 content designers), she had to handle half the work across multiple teams. Didn't deliver: worked slowly, wasn't proactive, took too long to onboard.",
+      "outcome": "Let go after 8 months (half was onboarding). Tough but necessary decision.",
+      "lesson": "Past environment matters as much as skills. Someone from a large team where they could specialize won't automatically adapt to a small team where they need to be generalists."
+    },
+    "product_killed": {
+      "story": "At Cellebrite, led design of an experimental timeline-based data exploration tool. Unique — nothing like it existed. Personally invested, advocated for it. Built prototypes, ran usability testing, developed MVP.",
+      "outcome": "Canceled due to high R&D cost and onboarding challenge.",
+      "lesson": "Being right about the concept isn't enough. Timing, cost, and adoption all have to line up. Killing projects you're emotionally invested in is part of the job."
+    },
+    "underperformer_pips": {
+      "story": "Designer who couldn't balance deep discovery vs. fast execution. Many disputes. Overcame obstacles together, but after two PIPs, had to let him go.",
+      "outcome": "2.5 years with company before exit.",
+      "lesson": "PIPs work sometimes. But if the fit isn't there after real effort, don't drag it out."
+    }
+  },
+
+  "domain_expertise": {
+    "transferable_pattern": "Problems are highly transferable because the core challenge is large-scale data navigation: law enforcement (detectives sifting through extracted data), transit (networks of routes with multiple data layers), optimization engines (rules affecting algorithmic output). Thread: complex data, expert users, rule-based systems. This applies across many industries.",
+    "public_transportation": "Deep expertise: planning, scheduling, rostering, operations, monitoring. Enterprise customers: Deutsche Bahn, ~75% UK public transit, ~50% Brazil public transit.",
+    "complex_b2b": "B2B reality: users are not buyers. Workflows can be trial-and-error. Success paths aren't obvious. UX challenge: make expert-level complexity navigable without dumbing down. Users work 8+ hours daily."
+  },
+
+  "what_i_look_for": {
+    "ideal_roles": [
+      "Head of Design / VP Design at complex B2B SaaS",
+      "Design leadership where product involves operational complexity",
+      "Organizations beginning AI integration who need someone to lead design transformation",
+      "Companies 150-500 employees where design needs to scale from small team to mature org"
+    ],
+    "what_excites_me": [
+      "Complex problem spaces where simplification is the challenge",
+      "Building design orgs from early stage to maturity",
+      "Companies where design has real chance to influence product strategy",
+      "AI adoption as strategic priority, not side project"
+    ],
+    "wrong_expectations": [
+      "Hired to 'make the product prettier'",
+      "Expected to work hands-on majority of time",
+      "Design treated as 'nice to have'",
+      "Every piece of content (decks, website, banners, LinkedIn) must go through designers"
+    ]
+  },
+
+  "how_people_describe_me": [
+    "Hard-working",
+    "A people's person",
+    "Cares a lot about team and their growth",
+    "Innovative",
+    "Very analytical mindset",
+    "Strong product thinking",
+    "AI enthusiast"
+  ],
+
+  "positioning": {
+    "seeking": "Full-time",
+    "differentiator": "I've replaced a human role with AI — and nobody noticed quality dropped. Instead, it went up. I don't believe in design culture. I believe in product culture where Design becomes the power multiplier."
+  },
+
+  "system_prompt_instructions": {
+    "persona": "You are an AI assistant representing Yair Golan. You answer questions about experience, skills, leadership philosophy, and career. Grounded in facts provided. Honest, direct, human. Don't oversell. Acknowledge gaps openly.",
+    "tone": "Direct, witty (dry observational humor), human. Sound like a 15-year design veteran talking to smart colleagues. No corporate speak. No buzzwords. No 'leveraging synergies'. Real talk.",
+    "honesty_rules": [
+      "Never claim expertise Yair doesn't have. If asked about consumer product experience, say it's a gap.",
+      "When asked about skills in 'gaps' category, be honest and explain what transfers and what doesn't.",
+      "Don't oversell. Let the depth speak for itself.",
+      "If you don't have information, say so. Don't fabricate."
+    ],
+    "fit_assessment_rules": [
+      "When evaluating job fit, be genuinely honest. If not a match, say so and explain why.",
+      "For strong fits, provide specific evidence from experience.",
+      "For weak fits, explain what transfers and what doesn't. Suggest what kind of role would be better.",
+      "Always maintain respect and professionalism, even when declining a match."
+    ]
+  }
+}
